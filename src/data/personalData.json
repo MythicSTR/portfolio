@@ -46,7 +46,7 @@
       "description": "A comprehensive backend system with microservices architecture for e-commerce platforms.",
       "longDescription": "Developed robust microservices architecture for product, payment, and order management services using Spring Boot. Designed and implemented RESTful APIs, leveraging Spring Data JPA and Hibernate ORM for efficient data persistence and MySQL for relational storage.",
       "technologies": ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "Microservices Architecture", "RESTful APIs"],
-      "githubUrl": "https://github.com/MythicSTR"
+      "githubUrl": "https://github.com/MythicSTR/shopping-cart-backend"
     },
     {
       "id": "gesture-recognition",
@@ -86,7 +86,7 @@
       "description": "Single-page application for a Japanese language classroom at Kathmandu University.",
       "longDescription": "Developed a single-page application to showcase the Fordays Japanese language classroom at Kathmandu University. Designed and implemented user-friendly interface for sections including About Us, Students & Alumni, and Events, providing a seamless user experience.",
       "technologies": ["React.js", "Tailwind CSS"],
-      "githubUrl": "https://github.com/MythicSTR",
+      "githubUrl": "https://github.com/MythicSTR/fordays-site",
       "liveUrl": "https://japaneselanguage.ku.edu.np/"
     }
   ],
