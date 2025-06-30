@@ -1,0 +1,140 @@
+
+{
+  "personal": {
+    "name": "Shishir Tamrakar",
+    "title": "Software Developer & UI/UX Designer",
+    "location": "Kathmandu, Nepal",
+    "description": "A passionate problem-solver crafting innovative software solutions with a focus on exceptional user experience and performance. Based in Kathmandu, Nepal.",
+    "github": "https://github.com/MythicSTR",
+    "linkedin": "https://linkedin.com/in/shishirtamrakar"
+  },
+  "about": {
+    "paragraphs": [
+      "I'm a Computer Science undergraduate at Kathmandu University with a passion for building elegant, user-friendly software solutions. My journey in tech started with web development and has evolved to encompass UI/UX design and machine learning.",
+      "I believe in creating technology that solves real problems while delivering exceptional user experiences. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or hiking in Nepal's beautiful mountains."
+    ],
+    "coreSkills": ["Java", "Python", "JavaScript", "Spring Boot", "Django", "Node.js", "React.js", "UI/UX Design"]
+  },
+  "experience": [
+    {
+      "title": "UI/UX Designer (Freelance)",
+      "company": "StartIn Lab",
+      "duration": "Dec 2024 - Feb 2025",
+      "description": [
+        "Sole designer for a social media platform designed to connect entrepreneurs and students, focusing on networking, event participation, and collaboration",
+        "Designed intuitive profile creation, matching, event listing, RSVP, and a chat UI pages in Figma, optimizing for user engagement and seamless interaction without overwhelming the user",
+        "Collaborated with clients in regular stand-ups, iterating on designs, conducting design reviews and introspection to ensure alignment with their vision"
+      ],
+      "technologies": ["Figma", "UI/UX Design", "Prototyping", "User Research"]
+    },
+    {
+      "title": "Internship",
+      "company": "SmartChoice Technologies",
+      "duration": "Nov 2024 - Jan 2025",
+      "description": [
+        "Bridged the gap between business and development teams by translating client needs into clear technical documentation, and facilitated the integration of two digital wallet providers with the company's payment system",
+        "Collaborated with engineering teams to validate API integrations, troubleshoot transaction issues, and optimize payment flow logic",
+        "Assisted in preparing a detailed WebSocket specification for real-time transaction status updates, including architecture, message flows, and API interactions"
+      ],
+      "technologies": ["API Integration", "Technical Documentation", "WebSocket", "Payment Systems"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "shopping-cart",
+      "title": "Shopping Cart Backend System",
+      "description": "A comprehensive backend system with microservices architecture for e-commerce platforms.",
+      "longDescription": "Developed robust microservices architecture for product, payment, and order management services using Spring Boot. Designed and implemented RESTful APIs, leveraging Spring Data JPA and Hibernate ORM for efficient data persistence and MySQL for relational storage.",
+      "technologies": ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "Microservices Architecture", "RESTful APIs"],
+      "githubUrl": "https://github.com/MythicSTR"
+    },
+    {
+      "id": "gesture-recognition",
+      "title": "Gesture-Controlled Digital Interaction System",
+      "description": "AI-powered system for real-time hand gesture recognition using computer vision techniques.",
+      "longDescription": "Developed a real-time gesture recognition system, enabling touches computer interaction via hand gestures. Implemented a Conv3D + LSTM hybrid model trained on a Kaggle dataset, applying proper data augmentation techniques, and achieving an overall 75% accuracy.",
+      "technologies": ["Python", "OpenCV", "NumPy", "TensorFlow"],
+      "githubUrl": "https://github.com/MythicSTR"
+    },
+    {
+      "id": "munchy",
+      "title": "Munchy",
+      "description": "On-Site Restaurant Ordering System for seamless ordering and management.",
+      "longDescription": "Developed a real-time restaurant ordering application enabling customers to browse menus, customize orders, and place them instantly. Designed a responsive and interactive UI, integrated live order tracking, and dynamic menu updates, ensuring instant transmission to restaurant systems for faster processing and efficient order management.",
+      "technologies": ["FlutterFlow", "Firebase"],
+      "githubUrl": "https://github.com/MythicSTR"
+    },
+    {
+      "id": "unify",
+      "title": "Unify",
+      "description": "Classroom Allocation Management System with dynamic scheduling and resource management.",
+      "longDescription": "Built RESTful API endpoints with Django for dynamic classroom scheduling and real-time data management, ensuring smooth interaction with the frontend. Utilized PostgreSQL for robust data storage and Django's ORM for efficient querying and management of classroom, schedule, and resource data.",
+      "technologies": ["Django", "React.js", "PostgreSQL", "RESTful APIs"],
+      "githubUrl": "https://github.com/MythicSTR/Unify"
+    },
+    {
+      "id": "unilife",
+      "title": "Unilife",
+      "description": "E-commerce and Local Discovery Platform with authentication and search functionality.",
+      "longDescription": "Developed a full-stack platform combining e-commerce and hostel search functionalities, enabling efficient handling of user authentication, product listings, and hostel search queries. Utilized JWT for secure, stateless authentication, and MongoDB to store and manage product and hostel data, ensuring seamless retrieval and updates.",
+      "technologies": ["React.js", "Node.js", "Express", "MongoDB", "JWT"],
+      "githubUrl": "https://github.com/MythicSTR/Unilife"
+    },
+    {
+      "id": "fordays",
+      "title": "Fordays Japanese Language Classroom Portal",
+      "description": "Single-page application for a Japanese language classroom at Kathmandu University.",
+      "longDescription": "Developed a single-page application to showcase the Fordays Japanese language classroom at Kathmandu University. Designed and implemented user-friendly interface for sections including About Us, Students & Alumni, and Events, providing a seamless user experience.",
+      "technologies": ["React.js", "Tailwind CSS"],
+      "githubUrl": "https://github.com/MythicSTR",
+      "liveUrl": "https://japaneselanguage.ku.edu.np/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "icon": "Code",
+      "color": "bg-gradient-to-r from-blue-400 to-indigo-500",
+      "skills": ["Java", "Python", "JavaScript", "SQL"]
+    },
+    {
+      "name": "Backend",
+      "icon": "Server",
+      "color": "bg-gradient-to-r from-green-400 to-emerald-500",
+      "skills": ["Spring Boot", "Spring Data JPA", "Hibernate", "Django", "Node.js", "JSP & Servlet"]
+    },
+    {
+      "name": "Frontend",
+      "icon": "Layout",
+      "color": "bg-gradient-to-r from-purple-400 to-violet-500",
+      "skills": ["React.js", "Tailwind CSS", "Figma (UI/UX Design)"]
+    },
+    {
+      "name": "Databases",
+      "icon": "Database",
+      "color": "bg-gradient-to-r from-orange-400 to-pink-500",
+      "skills": ["MySQL", "PostgreSQL", "MongoDB", "Firebase"]
+    },
+    {
+      "name": "Tools & Libraries",
+      "icon": "Globe",
+      "color": "bg-gradient-to-r from-cyan-400 to-blue-500",
+      "skills": ["IntelliJ IDEA", "Eclipse", "Maven", "Apache Tomcat", "Git", "Postman", "VS Code", "Vim"]
+    },
+    {
+      "name": "Practices",
+      "icon": "Lightbulb",
+      "color": "bg-gradient-to-r from-yellow-400 to-amber-500",
+      "skills": ["Agile Development", "Object-Oriented Programming", "Microservices Architecture", "Version Control"]
+    }
+  ],
+  "education": [
+    {
+      "icon": "GraduationCap",
+      "title": "Bachelor of Science in Computer Science",
+      "institution": "Kathmandu University",
+      "duration": "Dec 2020 - Present",
+      "description": "Related Coursework: Object Oriented Programming, Data Structures and Algorithms, Database Management Systems, Software Engineering"
+    }
+  ]
+}
