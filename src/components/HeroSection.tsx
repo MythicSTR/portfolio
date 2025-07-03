@@ -4,6 +4,9 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import TypingAnimation from "./TypingAnimation";
 import { motion } from "framer-motion";
 import { usePersonalData } from "@/hooks/usePersonalData";
+import { ToastContainer, toast } from 'react-toastify';
+
+import resume from "public/resume.pdf";
 
 const HeroSection = () => {
   const titleReveal = useScrollReveal();
@@ -66,7 +69,7 @@ const HeroSection = () => {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <motion.a 
-              href="/resume.pdf" 
+              href={resume}
               download="Shishir_Tamrakar_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -74,7 +77,7 @@ const HeroSection = () => {
               onClick={(e) => {
                 e.preventDefault();
                 // This would be replaced with actual resume download
-                alert("Resume download would happen here");
+                toast("Thank you for your interest in my profile.");
               }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
