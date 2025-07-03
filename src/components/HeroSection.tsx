@@ -75,8 +75,6 @@ const HeroSection = () => {
               rel="noopener noreferrer"
               className="btn btn-accent btn-lg flex items-center gap-2"
               onClick={(e) => {
-                e.preventDefault();
-                // This would be replaced with actual resume download
                 toast("Thank you for your interest in my profile.");
               }}
               whileHover={{ scale: 1.05 }}
