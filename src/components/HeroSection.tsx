@@ -69,7 +69,7 @@ const HeroSection = () => {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <motion.a 
-              href={resume}
+              href="/resume.pdf"
               download="Shishir_Tamrakar_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
