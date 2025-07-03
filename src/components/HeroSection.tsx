@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { usePersonalData } from "@/hooks/usePersonalData";
 import { ToastContainer, toast } from 'react-toastify';
 
-import resume from "public/resume.pdf";
+import resume from "../assets/resume.pdf";
 
 const HeroSection = () => {
   const titleReveal = useScrollReveal();
@@ -69,7 +69,7 @@ const HeroSection = () => {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <motion.a 
-              href="/resume.pdf"
+              href={resume}
               download="Shishir_Tamrakar_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
