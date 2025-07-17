@@ -136,5 +136,52 @@
       "duration": "Dec 2020 - Present",
       "description": "Related Coursework: Object Oriented Programming, Data Structures and Algorithms, Database Management Systems, Software Engineering"
     }
+  ],
+  "story": [
+    {
+      "id": "japanese-speech-contest",
+      "title": "3rd Place - 43rd All Nepalese Japanese Language Speech Competition",
+      "date": "2024-04",
+      "description": "Delivered a speech on my Japanese language learning journey at the 43rd All Nepalese Japanese Language Speech Competition. The event brought together passionate learners from across the country, and I was honored to secure third place in the junior level category.",
+      "highlights": [
+        "Spoke on the theme of personal Japanese language learning journey",
+        "Competed among nationwide Japanese learners",
+        "Earned third place in the junior level category",
+        "Enhanced public speaking and language expression skills"
+      ],
+      "type": "achievement",
+      "icon": "mic",
+      "image": "/assets/story/43rd_Japanese_Language_Speech_Competition.jpg"
+    },
+    {
+      "id": "first-japan-visit",
+      "title": "First Visit to Japan - Language & Culture Exchange",
+      "date": "2024-07",
+      "description": "Participated in a 7-day language and cultural exchange tour in Japan, organized by Fordays Japan in collaboration with Kathmandu University. This eye-opening journey offered direct exposure to Japanese culture, language immersion, and firsthand experiences that deepened my appreciation for Japan’s social and cultural richness.",
+      "highlights": [
+        "Visited renowned IT companies and discussed the Japanese IT job market",
+        "Explored Tokyo landmarks like Asakusa, Shibuya, and Shinjuku",
+        "Practiced Japanese in real-world settings with native speakers",
+        "Experienced traditional culture through ceremonies, arts, and local interactions"
+      ],
+      "type": "travel",
+      "icon": "plane",
+      "image": "/assets/story/Arrival_To_Japan.jpg"
+    },
+    {
+      "id": "fordays-scholarship",
+      "title": "Fordays Japanese Language Scholarship",
+      "date": "2024-07",
+      "description": "Awarded the Fordays Japanese Language Course Scholarship (フォーデイズ日本語奨学金) by Fordays Co., Ltd., in recognition of my dedication to Japanese language learning and cultural engagement. The scholarship was offered in collaboration with Kathmandu University.",
+      "highlights": [
+        "Recognized for commitment to Japanese language and cultural understanding",
+        "Selected through Kathmandu University under Fordays Japan’s education initiative",
+        "Formal endorsement by Fordays Co., Ltd.",
+        "Supported further studies in Japanese language and cultural exchange"
+      ],
+      "type": "achievement",
+      "icon": "book",
+      "image": "/assets/story/Received_Fordays_Scholarship.jpg"
+    }
   ]
 }

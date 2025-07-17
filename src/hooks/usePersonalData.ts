@@ -44,6 +44,16 @@ export interface PersonalData {
     duration: string;
     description: string;
   }>;
+  story: Array<{
+    id: string;
+    title: string;
+    date: string;
+    description: string;
+    highlights: string[];
+    type: string;
+    icon: string;
+    image: string;
+  }>;
 }
 
 export const usePersonalData = (): PersonalData => {
