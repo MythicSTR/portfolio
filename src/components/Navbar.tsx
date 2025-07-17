@@ -38,8 +38,8 @@ const Navbar = () => {
           to="/" 
           className="text-lg font-bold relative z-10"
         >
-          <span className="text-accent">{personalData.personal.name.split(' ')[0]}</span> {personalData.personal.name.split(' ')[1]}
-          <span className="absolute -bottom-1 left-0 w-full h-[2px] bg-accent/50"></span>
+          <span className="text-accent">{personalData.personal.name_jp.split(' ')[0]}</span> {personalData.personal.name_jp.split(' ')[1]}
+          {/* <span className="absolute -bottom-1 left-0 w-full h-[2px] bg-accent/50"></span> */}
         </Link>
         
         {/* Desktop Nav */}
@@ -63,7 +63,7 @@ const Navbar = () => {
               <Link to="/#contact" className="nav-link">Contact</Link>
             </>
           )}
-          <Link to="/story" className="nav-link">Story</Link>
+          <Link to="/story" className="nav-link border-2 border-accent text-accent rounded px-4 py-1 transition hover:bg-accent hover:text-background">My Journey</Link>
           <button 
             onClick={toggleTheme} 
             className="ml-4 p-2 rounded-full hover:bg-muted transition-all"

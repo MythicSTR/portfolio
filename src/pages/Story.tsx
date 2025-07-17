@@ -45,11 +45,11 @@ const Story = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: index * 0.2 }}
                     className={`flex flex-col lg:flex-row items-center gap-12 ${
-                      index % 2 === 1 ? 'lg:flex-row-reverse' : ''
+                      item.image ? `${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}` : 'lg:items-center lg:justify-center'
                     }`}
                   >
                     {/* Image Section */}
-                    <div className="flex-1 lg:max-w-lg">
+                    {item.image && (<div className="flex-1 lg:max-w-lg">
                       <div className="relative group">
                         <div className="aspect-[4/3] bg-gradient-to-br from-accent/20 via-accent/10 to-accent/5 rounded-2xl overflow-hidden shadow-xl">
                           {/* Stock image for demonstration */}
@@ -69,26 +69,28 @@ const Story = () => {
                         <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-accent/20 rounded-full animate-pulse" style={{ animationDelay: '1s' }} />
                       </div>
                     </div>
+                    )}
 
                     {/* Content Section */}
-                    <div className="flex-1 space-y-6">
+                    <div className={`flex-1 space-y-6 ${!item.image ? 'text-center' : ''}`}>
                       <div className="space-y-4">
-                        <div className="flex items-center gap-3 flex-wrap">
+                        
+                        <h2 className="text-3xl font-bold text-foreground">
+                          {item.title}
+                        </h2>
+
+                        <div className={`flex gap-3 ${item.image ? 'items-center' : 'justify-center'}`}>
+                          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                            <Calendar className="h-4 w-4" />
+                            <span>{item.date}</span>
+                          </div>
                           <Badge 
                             variant="secondary" 
                             className="bg-accent/10 text-accent border-accent/20"
                           >
                             {item.type}
                           </Badge>
-                          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                            <Calendar className="h-4 w-4" />
-                            <span>{item.date}</span>
-                          </div>
                         </div>
-                        
-                        <h2 className="text-3xl font-bold text-foreground">
-                          {item.title}
-                        </h2>
                         
                         <p className="text-lg text-muted-foreground leading-relaxed">
                           {item.description}

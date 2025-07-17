@@ -2,6 +2,7 @@
 {
   "personal": {
     "name": "Shishir Tamrakar",
+    "name_jp": "タムラカル・ シシル",
     "title": "Software Developer & UI/UX Designer",
     "location": "Kathmandu, Nepal",
     "description": "A passionate problem-solver crafting innovative software solutions with a focus on exceptional user experience and performance. Based in Kathmandu, Nepal.",
@@ -149,6 +150,17 @@
   ],
   "story": [
     {
+      "id": "bachelors-compsci-2020",
+      "title": "Started BSc in Computer Science, Kathmandu University",
+      "date": "2020-12",
+      "description": "Joined the Bachelor of Science program with a major in Computer Science at Kathmandu University, marking the start of my journey to the IT world.",
+      "highlights": [
+      ],
+      "type": "education",
+      "icon": "graduation-cap",
+      "image": ""
+    },
+    {
       "id": "openschool-launch",
       "title": "Contributor - OpenSchool by KUOSC",
       "date": "2023-06",
@@ -164,6 +176,17 @@
       "image": "/assets/story/Open_School_Launch.jpg"
     },
     {
+      "id": "jlpt-n5-pass-2023",
+      "title": "Passed JLPT N5",
+      "date": "2023-12",
+      "description": "Marked the official beginning of my Japanese language journey by successfully passing the JLPT N5, establishing a solid foundation in basic grammar and vocabulary.",
+      "highlights": [
+      ],
+      "type": "achievement",
+      "icon": "globe",
+      "image": ""
+    },
+    {
       "id": "japanese-speech-contest",
       "title": "3rd Place - 43rd All Nepalese Japanese Language Speech Competition",
       "date": "2024-04",
@@ -177,6 +200,17 @@
       "type": "achievement",
       "icon": "mic",
       "image": "/assets/story/43rd_Japanese_Language_Speech_Competition.jpg"
+    },
+    {
+      "id": "jlpt-n2-pass-2024",
+      "title": "Passed JLPT N4",
+      "date": "2024-07",
+      "description": "Cleared the JLPT N4 level, reinforcing my foundational understanding of Japanese grammar, vocabulary, and reading skills.",
+      "highlights": [
+      ],
+      "type": "achievement",
+      "icon": "globe",
+      "image": ""
     },
     {
       "id": "first-japan-visit",
@@ -207,6 +241,17 @@
       "type": "achievement",
       "icon": "book",
       "image": "/assets/story/Received_Fordays_Scholarship.jpg"
+    },
+    {
+      "id": "jlpt-n3-pass-2024",
+      "title": "Passed JLPT N3",
+      "date": "2024-12",
+      "description": "Successfully passed the Japanese Language Proficiency Test (JLPT) N3 level, demonstrating intermediate proficiency in Japanese.",
+      "highlights": [
+      ],
+      "type": "achievement",
+      "icon": "globe",
+      "image": ""
     }
   ]
 }

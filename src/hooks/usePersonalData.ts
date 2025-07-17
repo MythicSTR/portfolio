@@ -1,10 +1,10 @@
-
 import { useState, useEffect } from 'react';
 import personalDataJson from '../data/personalData.json';
 
 export interface PersonalData {
   personal: {
     name: string;
+    name_jp: string;
     title: string;
     location: string;
     description: string;
