@@ -149,6 +149,21 @@
   ],
   "story": [
     {
+      "id": "openschool-launch",
+      "title": "Contributor - OpenSchool by KUOSC",
+      "date": "2023-06",
+      "description": "Contributed to the OpenSchool initiative by Kathmandu University Open Source Community (KUOSC), an educational platform aimed at promoting open-source technologies. As part of the launch, I created beginner-friendly C programming tutorial videos to help students build a strong programming foundation.",
+      "highlights": [
+        "Created C programming tutorials as part of the OpenSchool YouTube series",
+        "Contributed to KUOSC’s mission of spreading open-source awareness",
+        "Collaborated with fellow contributors under mentorship of Aadarsha Dhakal",
+        "Promoted open, accessible education through digital platforms"
+      ],
+      "type": "project",
+      "icon": "code",
+      "image": "/assets/story/Open_School_Launch.jpg"
+    },
+    {
       "id": "japanese-speech-contest",
       "title": "3rd Place - 43rd All Nepalese Japanese Language Speech Competition",
       "date": "2024-04",
