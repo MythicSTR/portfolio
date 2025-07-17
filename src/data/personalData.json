@@ -17,6 +17,16 @@
   },
   "experience": [
     {
+      "title": "Salesforce Developer Intern",
+      "company": "ComplianceQuest, Inc.",
+      "duration": "Apr 2025 - Jul 2025",
+      "description": [
+        "Gained hands-on experience by learning Salesforce platform fundamentals, including declarative development and Apex programming",
+        "Designed and developed a Salesforce-native restaurant management system using Apex, Flows, and Lightning Web Components"
+      ],
+      "technologies": ["Salesforce", "Apex", "SOQL/SOSL", "LWC"]
+    },
+    {
       "title": "UI/UX Designer (Freelance)",
       "company": "StartIn Lab",
       "duration": "Dec 2024 - Feb 2025",
